@@ -1,0 +1,459 @@
+.AccueilBanner {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.AccueilBanner img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.AccueilBanner-info {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-white);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.AccueilBanner-info div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.AccueilBanner-info div h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+.line {
+    background-color: var(--primary-color);
+    width: 40px;
+    height: 2px;
+}
+
+.AccueilBanner-info h1 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.AccueilBanner-info h2 {
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.AccueilBanner-info h2 span {
+    color: var(--primary-color);
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: rgb(88, 82, 95, 0.3);
+    border: 1px solid white;
+    border-radius: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.arrow svg {
+    width: 25px;
+}
+
+.left-arrow {
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    padding-right: .1rem;
+}
+
+.right-arrow {
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+
+.AccueilSection1 {
+    margin: 5rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.AccueilSectionDiv-p{
+    max-width: 500px;
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+
+.AccueilSection1 .img {
+    height: 627px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.background {
+    width: 100%;
+    height: 210px;
+}
+
+.AccueilSectionDiv div:nth-child(1) {
+    box-shadow: -1px -2px 25px -11px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: -1px -2px 25px -11px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: -1px -2px 25px -11px rgba(0, 0, 0, 0.59);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    height: 400px;
+}
+
+.ANTHEOR-LOGO {
+    color: var(--primary-color);
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.AccueilSectionDiv div:nth-child(1) h2 {
+    font-weight: 500;
+    margin: .8rem 0;
+    max-width: 600px;
+}
+
+.AccueilSectionDiv div:nth-child(2) {
+    position: relative;
+}
+
+.AccueilSectionDiv div:nth-child(2) .AccueilSection1_reviews {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.AccueilSection1_reviews h4,
+h1 {
+    font-weight: 400;
+}
+
+.AccueilSection1_reviews p {
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.AccueilSection1_info {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.AccueilSection1_info div:nth-child(1) h1 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: .8rem;
+}
+
+.AccueilSection1_info div:nth-child(1) div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.AccueilSection1_info div:nth-child(1) div h3 {
+    color: var(--primary-color);
+    letter-spacing: 2.5px;
+    font-weight: 500;
+}
+
+.AccueilSection1_info div:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.AccueilSection1_info div:nth-child(2) h1 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.AccueilSection1_info div:nth-child(2) div {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .3rem;
+}
+
+.AccueilSection1_info div:nth-child(2) div h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.Seperator {
+    margin: 4rem 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Seperator h1 {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.AccueilPrerequis {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 2rem;
+}
+
+.AccueilPrerequis div {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 90px;
+}
+
+.AccueilPrerequis p {
+    box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.AccueilPrerequis div div {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.grid_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 2rem;
+}
+
+.grid_container_info {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.grid_container_info h2 {
+    position: relative;
+}
+
+.grid_container_info h2::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 2.5px;
+    background-color: var(--primary-color);
+    bottom: 0;
+    left: 3px;
+}
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@media (max-width:1300px) {
+    .AccueilSectionDiv div:nth-child(1) h2 {
+        font-size: 1rem;
+    }
+
+    .AccueilSectionDiv div:nth-child(1) p {
+        font-size: .8rem;
+    }
+
+    .AccueilSection1_info h1 {
+        font-size: 1.2rem;
+    }
+
+    .AccueilSection1_info h3 {
+        font-size: 1rem;
+    }
+
+    .AccueilSection1_info div:nth-child(2) div h2 {
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .AccueilSection1_info div:nth-child(1) h1 {
+        font-size: 1.1rem;
+    }
+
+    .AccueilBanner-info div h3 {
+        font-size: .8rem;
+    }
+
+    .line {
+        width: 30px;
+    }
+
+    .AccueilBanner-info h1 {
+        font-size: 1.5rem;
+    }
+
+    .AccueilBanner-info h2 {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .arrow {
+        display: none;
+    }
+
+    .AccueilSection1_info {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .AccueilSection1 {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .AccueilSection1 .img {
+        height: 210px;
+        width: 100%;
+    }
+
+    .AccueilPrerequis {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid_container_info h2 {
+        font-size: 1.1rem;
+    }
+
+    .grid_container_info p {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:900px) {
+    .grid_container_info {
+        bottom: 30px;
+    }
+
+    .grid_container_info h2 {
+        font-size: 1rem;
+    }
+
+    .grid_container_info p {
+        font-size: .7rem;
+    }
+}
+
+
+@media (max-width:800px) {
+    .AccueilBanner-info div h3 {
+        font-size: .7rem;
+    }
+
+    .line {
+        width: 20px;
+    }
+
+    .AccueilBanner-info h1 {
+        font-size: 1.2rem;
+    }
+
+    .AccueilBanner-info h2,
+    span {
+        font-size: .9rem;
+    }
+
+    .AccueilSection1_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .AccueilSection1_info h3 {
+        font-size: .9rem;
+    }
+
+    .AccueilSection1_info div:nth-child(2) div h2 {
+        font-size: 1rem;
+    }
+
+    .AccueilSection1_info div:nth-child(1) h1 {
+        font-size: 1rem;
+    }
+
+    .grid_container2 {
+        grid-template-columns: 1fr !important;
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .grid_container2div img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:600px) {
+    .AccueilPrerequis div {
+        width: 100%;
+        font-size: .9rem;
+    }
+
+    .grid_container1 {
+        grid-template-columns: 1fr !important;
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .grid_container1div img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .AccueilSectionDiv div:nth-child(1) {
+        height: fit-content;
+    }
+}
+
+@media (max-width:400px) {
+    .AccueilPrerequis div {
+        height: 120px;
+    }
+
+}

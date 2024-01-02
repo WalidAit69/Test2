@@ -1,0 +1,325 @@
+.AccueilSection3_firstsection {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 2.5rem 0;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.AccueilSection3_firstsection img {
+    width: 500px;
+    height: 500px;
+}
+
+.AccueilSection3_firstsection div {
+    padding: 1.2rem;
+    width: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.AccueilSection3_firstsection div h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.AccueilSection3_firstsection div p,
+span {
+    font-size: .9rem;
+}
+
+.AccueilSection3_firstsection div span {
+    color: rgb(153, 153, 153);
+}
+
+.AccueilSection3_secondsection {
+    max-width: 70%;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.AccueilSection3_long_p {
+    display: flex;
+    gap: .2rem;
+}
+
+.AccueilSection3_long_p .AccueilSection3_long_line {
+    content: "";
+    width: 2px;
+    height: 140px;
+    background-color: var(--primary-light-color);
+    z-index: 100;
+}
+
+.AccueilSection3_long {
+    background-color: var(--primary-light-color);
+    color: white;
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    height: 140px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.AccueilSection3_long h1 {
+    font-weight: 500;
+    font-size: .9rem;
+    margin-bottom: .7rem;
+    text-transform: uppercase;
+}
+
+.AccueilSection3_long p {
+    font-size: .75rem;
+    font-weight: 300;
+    min-width: 520px;
+}
+
+.AccueilSection3_long .icon {
+    border: 1px solid white;
+    width: 35px;
+    height: 30px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
+
+.AccueilSection3_short {
+    box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    border: 1px solid rgb(233, 233, 233);
+    color: black;
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    height: fit-content;
+}
+
+.AccueilSection3_short h1 {
+    font-weight: 500;
+    font-size: .9rem;
+    margin-bottom: .7rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.AccueilSection3_short p {
+    font-size: .75rem;
+    font-weight: 300;
+    min-width: 200px;
+}
+
+.AccueilSection3_short_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.AccueilSection3_firstsection_second {
+    box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    border: 1px solid rgb(233, 233, 233);
+    padding: 2rem;
+}
+
+.ContactInfo h2 {
+    font-size: 1.1rem;
+}
+
+.ContactInfo h2 span {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.ContactInfo p {
+    font-weight: 300;
+}
+
+.ContactInfo p span {
+    font-weight: 600;
+}
+
+.ContactInfo div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ReviewsSection {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 65rem;
+    margin: 0 auto;
+}
+
+.ReviewsSectionNavigation {
+    position: absolute;
+    display: flex;
+    gap: .3rem;
+    right: 0;
+    top: 0;
+}
+
+.ReviewsSectionNavigation div:nth-child(1) {
+    background-color: rgb(199, 198, 198);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+
+.ReviewsSectionNavigation div:nth-child(2) {
+    color: white;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ReviewsSectionContainer {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.ReviewsSectiongoogle {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: .3rem;
+    margin-top: .8rem;
+}
+
+.ReviewsSectiongoogle div {
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin-left: 1.3rem;
+}
+
+.ReviewsSectiongoogle p {
+    font-size: .8rem;
+    color: var(--darker-gray);
+}
+
+.ReviewsSectiongoogle a {
+    font-size: .85rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width:1300px) {
+    .AccueilSection3_firstsection {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem !important;
+    }
+
+    .AccueilSection3_firstsection img {
+        width: 100%;
+        object-fit: cover;
+        height: 350px;
+    }
+
+    .AccueilSection3_firstsection div {
+        width: 100%;
+    }
+
+    .AccueilSection3_short_container {
+        gap: 0rem;
+        flex-direction: column;
+    }
+
+    .AccueilSection3_long {
+        height: 200px;
+    }
+
+    .AccueilSection3_long_line {
+        height: 200px !important;
+    }
+
+    .AccueilSection3_long p {
+        font-size: .75rem;
+        font-weight: 300;
+        min-width: 100%;
+    }
+}
+
+@media (max-width:1100px) {
+    .ReviewsSection {
+        width: 30rem;
+    }
+
+    .ReviewsSectionContainer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+    .AccueilSection3_secondsection {
+        max-width: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .ReviewsSection {
+        width: 25rem;
+    }
+
+    .ReviewsSectionContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .ReviewsSection {
+        width: 20rem;
+
+    }
+
+    .ReviewsSectionContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .AccueilSection3_firstsection div {
+        min-width: 300px;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .AccueilSection3_long {
+        height: 250px;
+    }
+
+    .AccueilSection3_long h1{
+        font-size: .8rem;
+    }
+
+    .AccueilSection3_long p{
+        font-size: .7rem;
+    }
+
+    .AccueilSection3_long_line {
+        height: 250px !important;
+    }
+}

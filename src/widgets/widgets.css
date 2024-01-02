@@ -1,0 +1,122 @@
+.Line_widget {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.line1 {
+    height: 1px;
+    width: 100px;
+    background-color: var(--lighter-gray);
+}
+
+.square {
+    width: 5px;
+    height: 5px;
+    background-color: var(--primary-color);
+    rotate: 45deg;
+}
+
+.line2 {
+    height: 1px;
+    width: 100px;
+    background-color: var(--lighter-gray);
+}
+
+.Contact-card {
+    display: flex;
+    width: 280px;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Contact-card-icon {
+    background-color: var(--primary-color);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact-card-text {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 1.2rem;
+    width: 75%;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.ContactBar {
+    width: 100%;
+    background-color: var(--background-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+    height: 200px;
+    margin-top: 4rem;
+}
+
+.ContactBar h3 {
+    max-width: 280px;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.review {
+    display: flex;
+    gap: 1rem;
+    box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: -1px -3px 25px -17px rgba(0, 0, 0, 0.59);
+    border: 1px solid rgba(128, 128, 128, 0.116);
+    padding: 1rem 2rem;
+    width: 500px;
+    height: fit-content;
+}
+
+.review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review h4 {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.review p {
+    color: gray;
+    font-size: .8rem;
+    margin: .7rem 0;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--lighter-gray);
+}
+
+@media (max-width:1024px) {
+    .ContactBar {
+        gap: 2rem;
+        height: 350px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+    .review {
+        width: 100%;
+    }
+}

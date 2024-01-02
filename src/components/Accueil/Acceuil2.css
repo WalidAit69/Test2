@@ -1,0 +1,429 @@
+.Location {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.Location div:nth-child(1) {
+    position: relative;
+}
+
+.Location div:nth-child(1) img {
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.googlemaps {
+    height: 450px;
+    width: 400px;
+}
+
+.Location div:nth-child(1) h1 {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    margin-bottom: 1rem;
+}
+
+.Location-info {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
+.Location-info div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.Location div:nth-child(1) div p {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: .9rem;
+}
+
+.Location div:nth-child(1) div p h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: black;
+}
+
+.Location-info ul li {
+    font-size: .9rem;
+    height: 15px;
+    margin-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.Location-info ul li p {
+    width: 100px;
+}
+
+.Location-info ul li span {
+    margin-left: 1rem;
+}
+
+.Location-rendez-vous {
+    margin-top: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Location-rendez-vous h2 {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.Location-rendez-vous p {
+    font-size: .8rem !important;
+}
+
+.Contact-Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    height: 130px;
+    margin: 0 2rem;
+}
+
+.Contact-phone {
+    background-color: var(--background-color);
+    width: 280px;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Contact-phone2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-phone h2 {
+    position: relative;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.Contact-phone2 h2 {
+    position: relative;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.Contact-phone h2::before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 1.5px;
+    background-color: var(--primary-color);
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Contact-phone2 h2::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 1.5px;
+    background-color: var(--primary-color);
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Contact-phone button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: .3rem;
+    margin-top: .3rem;
+    border: transparent;
+    outline: transparent;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.Contact-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: 100%;
+}
+
+.Contact-form {
+    margin: 4rem 0;
+    padding: 0 2rem;
+    width: 100%;
+    height: 450px;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 5rem;
+}
+
+.Contact-form-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.Contact-form-info p:nth-child(1) {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: white;
+}
+
+.Contact-form-info p {
+    color: rgb(179, 174, 174);
+    font-size: .9rem;
+}
+
+.Contact-form-info p span {
+    color: white;
+    font-weight: 500;
+}
+
+.Contact-form-info p:nth-child(1) div {
+    height: 2px;
+    width: 20px;
+    background-color: var(--primary-color);
+}
+
+.Contact-form-info h3 {
+    font-weight: 500;
+}
+
+.Contact-form-info h1 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    max-width: 500px;
+}
+
+.Contact-form-form .Contact-form-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.Contact-form-form form input {
+    border: transparent;
+    outline: transparent;
+    width: 300px;
+    height: 45px;
+    background-color: transparent;
+    border-bottom: 1px solid var(--lighter-gray);
+    color: white;
+}
+
+#last-input {
+    margin-top: 1rem;
+    width: 100%;
+    height: 120px;
+}
+
+
+.messagelabel {
+    color: rgb(119, 115, 115);
+    font-size: .9rem;
+    position: absolute;
+    top: 20px;
+}
+
+.Contact-form-form .form-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact-form-form .form-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    margin-top: 1.5rem;
+    border: transparent;
+    outline: transparent;
+    border-radius: 3px;
+    width: 120px;
+    height: 30px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+@media (max-width:1300px) {
+    .Contact-form-info p:nth-child(1) {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: .8rem;
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        color: white;
+    }
+
+    .Contact-form-info p {
+        color: rgb(179, 174, 174);
+        font-size: .9rem;
+
+    }
+
+    .Contact-form-info p span {
+        color: white;
+        font-weight: 500;
+
+    }
+
+    .Contact-form-info h3 {
+        font-weight: 500;
+    }
+
+    .Contact-form-info h1 {
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: var(--primary-color);
+    }
+
+}
+
+@media (max-width:1024px) {
+    .Contact-form {
+        height: 600px;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .Contact-form-info {
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+
+@media (max-width:900px) {
+    .Location div:nth-child(1) img {
+        width: 350px;
+    }
+
+    .googlemaps {
+        width: 350px;
+    }
+}
+
+
+@media (max-width:800px) {
+    .Location {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2rem;
+    }
+
+    .Location div:nth-child(1) img {
+        width: 100%;
+    }
+
+    .googlemaps {
+        width: 100%;
+    }
+
+    .Contact-form {
+        height: 650px;
+    }
+
+    .Contact-form-form {
+        width: 100%;
+    }
+
+    .Contact-form-form .Contact-form-inputs {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .Contact-form-form form input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .Contact-form-info h3 {
+        font-size: 1rem;
+    }
+    
+    .Contact-form-info h1 {
+        font-size: 1.2rem;
+    }
+
+    .Contact-Container {
+        flex-direction: column;
+        gap: 2rem;
+        height: 350px;
+    }
+}
+
+@media (max-width:400px) {
+    .Location {
+        margin: 0rem;
+    }
+
+    .Location-info {
+        left: 20px;
+    }
+
+    .Location-info div {
+        gap: .3rem;
+    }
+
+    .Location div:nth-child(1) h1 {
+        font-size: 1.2rem;
+    }
+
+    .Location div:nth-child(1) div p {
+        font-size: .7rem;
+    }
+
+    .Location-info ul li {
+        font-size: .7rem;
+    }
+
+    .Location-rendez-vous h2 {
+        font-size: .8rem;
+    }
+
+    .Location-rendez-vous p {
+        font-size: .7rem !important;
+    }
+
+}
